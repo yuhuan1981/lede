@@ -560,7 +560,7 @@ endef
 TARGET_DEVICES += tl-wr841-v8
 
 define Device/tl-wr841-v9
-  $(Device/tplink-4mlzma)
+  $(Device/tplink-16mlzma)
   DEVICE_TITLE := TP-LINK TL-WR841N/ND v9
   BOARDNAME := TL-WR841N-v9
   DEVICE_PROFILE := TLWR841
