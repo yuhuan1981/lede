@@ -108,6 +108,16 @@ define Device/tl-mr3420-v1
 endef
 TARGET_DEVICES += tl-mr3420-v1
 
+define Device/tl-wr2041n-v1
+  $(Device/tplink-16mlzma)
+  DEVICE_TITLE := TP-LINK TL-WR2041N/ND v1
+  DEVICE_TITLE := TP-LINK TL-WR2041N v1
+  BOARDNAME := TL-WDR3500
+  DEVICE_PROFILE := TLWR2041
+  TPLINK_HWID := 0x20410001
+endef
+
+
 define Device/tl-mr3420-v2
   $(Device/tplink-4mlzma)
   DEVICE_TITLE := TP-LINK TL-MR3420 v2
