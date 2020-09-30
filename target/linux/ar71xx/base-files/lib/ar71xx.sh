@@ -178,6 +178,9 @@ tplink_board_detect() {
 	"001001"*)
 		model="TP-Link TL-MR10U"
 		;;
+	"204100"*)
+		model="TP-Link TL-WR2041N"
+		;;
 	"001101"*)
 		model="TP-Link TL-MR11U"
 		;;
@@ -1261,6 +1264,9 @@ ar71xx_board_detect() {
 		;;
 	*"TL-WA7210N v2")
 		name="tl-wa7210n-v2"
+		;;
+	*"TL-WR2041N v1")
+		name="tl-wr2041n-v1"
 		;;
 	*"TL-WA750RE")
 		name="tl-wa750re"
