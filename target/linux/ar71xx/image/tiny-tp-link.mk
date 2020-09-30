@@ -116,7 +116,7 @@ define Device/tl-wr2041n-v1
   DEVICE_PROFILE := TLWR2041
   TPLINK_HWID := 0x20410001
 endef
-
+TARGET_DEVICES += tl-wr2041n-v1
 
 define Device/tl-mr3420-v2
   $(Device/tplink-4mlzma)
