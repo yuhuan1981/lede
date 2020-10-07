@@ -261,6 +261,9 @@ tplink_board_detect() {
 
 		[ "$hwid" = '08410002' -a "$mid" = '00000002' ] && hwver=' v1.5'
 		;;
+	"088600"*)
+		model="TP-Link TL-WR886N"
+		;;
 	"084200"*)
 		model="TP-Link TL-WR842N/ND"
 		;;
@@ -1402,6 +1405,10 @@ ar71xx_board_detect() {
 		;;
 	*"TL-WR842N/ND v3")
 		name="tl-wr842n-v3"
+		;;
+		
+	*"TL-WR886N v1")
+		name="tl-wr886n-v1"
 		;;
 	*"TL-WR902AC v1")
 		name="tl-wr902ac-v1"
