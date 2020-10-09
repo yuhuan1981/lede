@@ -450,6 +450,7 @@ platform_check_image() {
 	tl-wa801nd-v3|\
 	tl-wa830re-v2|\
 	tl-wa850re|\
+	tl-wr885n-v1|\
 	tl-wa850re-v2|\
 	tl-wa855re-v1|\
 	tl-wa860re|\
