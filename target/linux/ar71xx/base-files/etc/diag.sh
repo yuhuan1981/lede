@@ -470,6 +470,7 @@ get_status_led() {
 	tl-wr1043n-v5|\
 	tl-wr1043nd|\
 	tl-wr1043nd-v2|\
+	tl-wr885n-v1|\
 	tl-wr1043nd-v4|\
 	tl-wr740n-v6|\
 	tl-wr741nd|\
